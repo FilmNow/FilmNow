@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Lalezar');
+
+body {
+  font-family: 'Lalezar', cursive;
+  background-color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.video-player-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.video-player {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.video-player:hover {
+  background-color: black;
+  color: yellow;
+}
+
+.video-player:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.video-player::cue(selector(.playing)) {
+  color: red;
+}
