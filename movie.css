@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lalezar');
 
+:root {
+  --yellow: #ffc107;
+}
+
 body {
   font-family: 'Lalezar', cursive;
   background-color: #212529;
   margin: 0;
   padding: 0;
+  color: var(--yellow); /* Added yellow color to all texts */
 }
 
 h1 {
-  color: yellow; /* Changed color to yellow */
   text-align: center;
   margin-bottom: 20px;
   margin-top: 50px;
@@ -21,13 +25,13 @@ h1 {
 }
 
 .video-player {
-  border: 2px solid yellow;
+  border: 2px solid var(--yellow);
   border-radius: 10px;
   padding: 20px;
 }
 
 .video-player:hover {
-  background-color: yellow;
+  background-color: var(--yellow);
   color: #212529;
 }
 
