@@ -27,7 +27,7 @@ h1 {
 
 .video-player:hover {
   background-color: black;
-  color: yellow;
+  color: #181D21;
 }
 
 .video-player:focus {
