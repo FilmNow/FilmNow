@@ -2,9 +2,13 @@
 
 body {
   font-family: 'Lalezar', cursive;
-  background-color: #212529; /* Changed from #181D21 to #212529 */
+  background-color: #212529;
   margin: 0;
   padding: 0;
+}
+
+h1, p { /* Added p to select all paragraph elements */
+  color: #F5C844;
 }
 
 h1 {
@@ -20,14 +24,14 @@ h1 {
 }
 
 .video-player {
-  border: 2px #F5C844;
+  border: 2px solid black;
   border-radius: 10px;
   padding: 20px;
 }
 
 .video-player:hover {
   background-color: black;
-  color: #212529; /* Changed from #181D21 to #212529 */
+  color: #212529;
 }
 
 .video-player:focus {
