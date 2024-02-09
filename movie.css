@@ -2,7 +2,7 @@
 
 body {
   font-family: 'Lalezar', cursive;
-  background-color: #181D21;
+  background-color: #212529; /* Changed from #181D21 to #212529 */
   margin: 0;
   padding: 0;
 }
@@ -27,7 +27,7 @@ h1 {
 
 .video-player:hover {
   background-color: black;
-  color: #181D21;
+  color: #212529; /* Changed from #181D21 to #212529 */
 }
 
 .video-player:focus {
