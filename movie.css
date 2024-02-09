@@ -20,7 +20,7 @@ h1 {
 }
 
 .video-player {
-  border: 2px solid black;
+  border: 2px #F5C844;
   border-radius: 10px;
   padding: 20px;
 }
