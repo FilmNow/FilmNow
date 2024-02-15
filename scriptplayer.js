@@ -708,3 +708,13 @@ video_players.forEach(video_player => {
   // });
 
 });
+const video = document.querySelector('.main-video');
+const ads = document.querySelector('.ads');
+
+video.addEventListener('play', () => {
+  ads.style.display = 'none';
+});
+
+video.addEventListener('pause', () => {
+  ads.style.display = 'block';
+});
