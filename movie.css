@@ -455,3 +455,21 @@ footer a:hover {
     display: none;
   }
 }
+.container {
+  position: relative;
+}
+
+.ads {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+}
+
+.ads img {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
