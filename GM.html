@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&display=swap" rel="stylesheet">
+    <title>دانلود گناه فرشته</title>
+    <style>
+        body {
+            background-color: yellow;
+            font-family: 'Lalezar', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        select {
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            margin-bottom: 20px;
+        }
+
+        select option {
+            padding: 5px 10px;
+        }
+
+        select option:hover {
+            background-color: #007bff;
+        }
+
+        select option:checked {
+            background-color: #007bff;
+        }
+        a {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            border: 2px solid #007bff;
+            transition: all 0.3s ease;
+        }
+        a:hover {
+            background-color: transparent;
+            color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section>
+            <h1>دانلود فیلم فسیل</h1>
+            <p>برای دانلود فایل روی دکمه زیر کلیک کنید</p>
+            
+            
+            <div class="video_options">
+                <select id="videoSelect">
+                    <option value="">انتخاب</option>
+                    <option value="https://dllllo.peepbox.ir/ser/godzila/01.480_5.mp4">قسمت ۱</option>
+                    <option value="https://dllllo.peepbox.ir/ser/godzila/02.480_6.mp4">قسمت ۲</option>
+                    <option value="https://dllllo.peepbox.ir/ser/godzila/03.480_8.mp4">قسمت ۳</option>
+                    <option value="https://dllllo.peepbox.ir/ser/1/04.480.mp4">قسمت ۴</option>
+                    <option value="https://dllllo.peepbox.ir/ser/1/05.480_2.mp4">قسمت ۵</option>
+                    <option value="https://dllllo.peepbox.ir/ser/1/06.480_2.mp4">قسمت ۶</option>
+                    <option value="http://dllllo.peepbox.ir/ser/2/07.720.mp4">قسمت ۷</option>
+                    <option value="https://s1.dlsi.top/2024/02/Gonah-08.mp4">قسمت ۸</option>
+                    <option value="https://dlsi.top/2024/02/Gonah-09.mp4">قسمت ۹</option>
+                    <option value="https://stream.farsicdn.co/serials/gonahe-fereshte/Gonahe-Fereshte-E10.mp4">قسمت ۱۰</option>
+                    <option value="https://s45-hzfi.freeconvert.com/task/65e2c07a838ce26348e40f6c/Gonah-11.mp4">قسمت ۱۱</option>
+                </select>
+            </div>
+            <br> <!-- adds a line break between paragraphs -->
+            <a id="downloadLink" href="your_video_file.mp4" download>دانلود</a>
+        </section>
+    </main>
+    <script>
+        document.getElementById('videoSelect').addEventListener('change', function() {
+            const selectedVideo = this.value;
+            const downloadLink = document.getElementById('downloadLink');
+
+            if (selectedVideo) {
+                downloadLink.href = selectedVideo;
+                downloadLink.download = 'video.mp4'; // You can change the downloaded file name here
+            }
+        });
+    </script>
+</body>
+</html>
